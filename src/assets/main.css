@@ -3,21 +3,29 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   font-weight: normal;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color:red;
   transition: 0.4s;
   padding: 3px;
+  border-radius: 3PX;
 }
 
+#img{
+display: flex;
+justify-content: center;
+}
+
+.cabecalho{
+}
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(160, 100%, 23%, 0.2);
   }
 }
 
@@ -32,4 +40,5 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+
 }
