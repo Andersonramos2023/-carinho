@@ -58,7 +58,7 @@
   margin: 0px 0; /* espaçamento superior e inferior */
 }
 
-.linha2 {
+.divisao {
   width: 100%; /* largura total */
   height: 2vw; /* altura da linha */
   background-color: red;
@@ -67,11 +67,22 @@
 
 
 
-.linha2 img {
+.divisao img {
   mix-blend-mode: multiply; /* mistura a imagem com o fundo */
   filter: brightness(0) invert(1); /* ajuda a pegar cor se imagem é preta */
 }
 
+.divisao2 {
+  width: 100%; /* largura total */
+  height: 2vw; /* altura da linha */
+  background-color: red;
+
+}
+
+.divisao2 img {
+  mix-blend-mode: multiply; /* mistura a imagem com o fundo */
+  filter: brightness(0) invert(1); /* ajuda a pegar cor se imagem é preta */
+}
 
 /* PESQUISA */
 
@@ -155,6 +166,7 @@ section.b{
     IMAGEN DIREITA
 
 ////////////////////////*/
+
 
 
 

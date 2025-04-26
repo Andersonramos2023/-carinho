@@ -25,11 +25,11 @@
         <li><a href="#">Contato</a></li>
         <li><a href="#">Login</a></li>
 
-         <div class="linha2"> <img src="/public/img/Line 2.png" alt="linha"> </div>
+         <!-- <div class="divisao"> <img src="/public/img/Line 2.png" alt="linha"> </div> -->
 
         <li><a href="#">Cadastro</a></li>
 
-        <div class="linha2"> <img src="/public/img/Line 2.png" alt="linha"> </div>
+        <!-- <div class="divisao2"> <img src="/public/img/Line 2.png" alt="linha"> </div> -->
 
         <li><a href="#">carinho</a></li>
       </ul>
@@ -52,14 +52,14 @@
 
         <p>O principal autor e editor da Marvel Comics foi Stan Lee (Stanley Martin Lieber), um escritor, editor, produtor e ator norte-americano. Ele é conhecido por ter co-criado muitos dos personagens icônicos da Marvel Comics, como o Homem-Aranha, os X-Men, o Hulk, Thor, o Homem de Ferro e o Quarteto Fantástico. </p>
 
-        <div class="botao"><a href="https://pt.wikipedia.org/wiki/Marvel_Comics">Ler página</a></div>
+        <div class="botao"><a href="#">Ler página</a></div>
 
         <!-- //////// FALTA COLOCAR A IMG ///////-->
       </section>
-      <div class="linha3"></div>
+      <section>
+        <div class="linha3"></div>
 
-      <section class="b">
-<p>a</p>
+        aaaaaaaaaaaaaa
       </section>
   </main>
 </body>
