@@ -1,41 +1,67 @@
+
 <template>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabeçalho Exemplo</title>
+</head>
+<body>
 
-  <head>
-    <link rel="stylesheet" href="components/MutiversoComics.css">
+  <header class="header">
 
-  </head>
-  <body>
-      <header>
+    <div class="logo">
+      <h1>Mutiverso comics</h1>
+    </div>
 
-        <div class="cabecalho">
-  <a href="MutiversoComics.vue">Multiverso Comics</a>
-        </div>
+      <p class="pesquisa"> Pesquisar comics?</p>
 
-        <section class="Altor">
+    <nav class="navegacao">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Login</a></li>
 
-          <div id="tset">
+         <div class="linha2"> <img src="/public/img/Line 2.png" alt="linha"> </div>
 
-            <a href="http://pt.wikipedia.org/wiki/Stan_Lee#:~:text=Stanley%20Martin%20Lieber%2C%20mais%20conhecido,empres%C3%A1rio%20e%20ator%20norte-americano.">Altor da comic</a>
+        <li><a href="#">Cadastro</a></li>
 
+        <div class="linha2"> <img src="/public/img/Line 2.png" alt="linha"> </div>
+
+        <li><a href="#">carinho</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="linha"></div>
+
+  <main>
+
+    <section class="apresentacao">
+
+
+        <h2>Bem-vindo ao Mutiverso Comics</h2>
+      <div>
+        <a href="#">Altor da marvel</a>
+      </div>
 
         <h1>Stanley Martin Lieber</h1>
 
-        <p>
-          Mais conhecido como Stan Lee (Nova Iorque, 28 de dezembro de 1922 — Los Angeles, 12 de novembro de 2018), foi um escritor, editor, publicitário, produtor, diretor, empresário e ator norte-americano, Mais conhecido como o criador da Marvel.
-        </p>
+        <p>O principal autor e editor da Marvel Comics foi Stan Lee (Stanley Martin Lieber), um escritor, editor, produtor e ator norte-americano. Ele é conhecido por ter co-criado muitos dos personagens icônicos da Marvel Comics, como o Homem-Aranha, os X-Men, o Hulk, Thor, o Homem de Ferro e o Quarteto Fantástico. </p>
 
+        <div class="botao"><a href="https://pt.wikipedia.org/wiki/Marvel_Comics">Ler página</a></div>
 
-        <a href="https://pt.scribd.com/document/596897611/Capitao-America-Comics-n%C2%BA-01-1941">Acessar página do livro</a>
+        <!-- //////// FALTA COLOCAR A IMG ///////-->
+      </section>
+      <div class="linha3"></div>
 
-       </div>
-
-       <div id="img">
-        <img src="/public/img/1-2.jpg"  alt="capitao america" >
-      </div>
-
-     </section>
-
-
-      </header>
-  </body>
+      <section class="b">
+<p>a</p>
+      </section>
+  </main>
+</body>
+</html>
 </template>

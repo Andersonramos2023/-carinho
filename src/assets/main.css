@@ -1,44 +1,161 @@
-@import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 1rem;
-  font-weight: normal;
+
+
+          /*/////////// HEADER //////////////*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* garante que o padding e a borda sejam incluídos na largura total do elemento */
 }
 
-a,
-.green {
+/* Estilo do cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between; /* espaçamento entre logo e nav */
+  align-items: center; /* alinha verticalmente os itens */
+  background-color: #333;
+  color: red;
+  padding: 40px; /* espaçamento interno CIMA DIREITA BAIXO ESQUERDA;*/
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+/* Estilo do logo */
+.logo h1 {
+  padding: 6.5px 0 0 5vw;
+  font-size: 24px; /* tamanho da fonte */
+  font-weight: bold; /* negrito */
+}
+
+/* Estilo da navegação */
+.navegacao ul {
+  list-style: none;
+  display: flex;
+}
+
+.navegacao li {
+  margin-left: 20px;
+}
+
+.navegacao a {
+  color: red;
   text-decoration: none;
-  color:red;
-  transition: 0.4s;
-  padding: 3px;
-  border-radius: 3PX;
+  font-size: 18px;
+  padding:10px;
+  border-radius: 4px;
 }
 
-#img{
-display: flex;
-justify-content: center;
+.navegacao a:hover {
+  background-color: #555;
 }
 
-.cabecalho{
+/* Linha de separação */
+
+.linha {
+  width: 100%; /* largura total */
+  height: 2.5px; /* altura da linha */
+  background-color: red;
+  margin: 0px 0; /* espaçamento superior e inferior */
 }
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 23%, 0.2);
+
+.linha2 {
+  width: 100%; /* largura total */
+  height: 2vw; /* altura da linha */
+  background-color: red;
+
+}
+
+
+
+.linha2 img {
+  mix-blend-mode: multiply; /* mistura a imagem com o fundo */
+  filter: brightness(0) invert(1); /* ajuda a pegar cor se imagem é preta */
+}
+
+
+/* PESQUISA */
+
+.pesquisa {
+
+  color:black;
+  color: #555;
+  background-color: white;
+  padding: 5px 7vw  5.6px 5vw ; /* espaçamento interno */
+}
+
+/*////////////////////////
+
+  SEÇÃO DE APRESENTAÇÃO
+
+////////////////////////*/
+
+section.apresentacao {
+  background-color: #333;
+  color: red;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* sombra */
+}
+section.apresentacao h2{
+  padding: 20px 0 20px 5vw;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+  font-size: 24px;
+}
+section.apresentacao a{
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  padding:10px ;
+  background-color:#333;
+  border: red 2px solid; /* borda vermelha */
+  border-radius: 4px;
+
+}
+
+section.apresentacao div{
+  padding: 20px 0 20px 5vw;
+}
+
+section.apresentacao h1{
+
+  padding: 20px 0 0px 5vw;
+  h1 {
+    font-size: 48px;
   }
-}
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
   }
 
 }
+
+section.apresentacao p{
+  font-size: 16px;
+  line-height: 1.6; /* bom espaçamento entre linhas */
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 20px 0 20px 5vw;
+
+}
+.linha3{
+  width: 100%; /* largura total */
+  height: 2.5px; /* altura da linha */
+  background-color: red;
+}
+
+section.b{
+  background-color: #333;
+  color: #333;
+}
+/*////////////////////////
+
+    IMAGEN DIREITA
+
+////////////////////////*/
+
+
+
+
